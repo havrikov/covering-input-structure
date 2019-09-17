@@ -560,7 +560,7 @@ def plot_coverage_dispersion(fmt: str, runs: int):
             cells.append(nbf.v4.new_code_cell(f"plot_coverage_dispersion({repr(fmt)}, runs={self.runs})"))
         nb['cells'] = cells
 
-        ep = ExecutePreprocessor(kernel_name="python3", timeout=900, allow_errors=True, interrupt_on_timeout=True)
+        ep = ExecutePreprocessor(kernel_name="python3", timeout=None, allow_errors=True, interrupt_on_timeout=True)
         ep.preprocess(nb, {'metadata': {'path': str(root_dir())}})
 
         with self.output().open('w') as f:
