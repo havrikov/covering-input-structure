@@ -20,7 +20,7 @@ git clone --recurse-submodules git@github.com:havrikov/covering-input-structure.
 Install python dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Configuring
@@ -38,7 +38,7 @@ luigid --background
 Run the experiments. (Substitute the number of CPUs below)
 
 ```bash
-python ./experiments.py --k-params "[1,2,3,5]" --runs 50 --workers <number-of-CPUs>
+python3 ./experiments.py --k-params "[1,2,3,5]" --runs 50 --workers <number-of-CPUs>
 ```
 
 Navigate to http://localhost:8082 to monitor the progress.
