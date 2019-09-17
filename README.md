@@ -2,7 +2,7 @@
 
 This is a replication package for the paper "Systematically Covering Input Structure" published at ASE 2019.
 
-You can download the entire dataset as reported in the paper from [Google Drive](https://drive.google.com/open?id=1S_F5EWB0B5v8cxkTsXArvG0ViPs7wryS) (574MB downloaded, 16GB uncompressed).
+You can download the entire dataset as reported in the paper from [Google Drive](https://drive.google.com/open?id=1S_F5EWB0B5v8cxkTsXArvG0ViPs7wryS) (574MB download, 16GB uncompressed).
 
 You can also run the experiments yourself: 
 
@@ -47,4 +47,4 @@ Navigate to http://localhost:8082 to monitor the progress.
 
 ## Inspecting Results
 
-After the experiment pipeline has finished, the results will be available as `report.html` in your experiment directory.
+After the experiment pipeline has finished, the results will be available as `report-50-runs.html` in your experiment directory.
