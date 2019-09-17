@@ -1,0 +1,6 @@
+[submodule "tools/tribble"]
+	path = tools/tribble
+	url = git@github.com:havrikov/tribble.git
+[submodule "tools/subjects"]
+	path = tools/subjects
+	url = git@github.com:havrikov/text-processing-java-projects.git
