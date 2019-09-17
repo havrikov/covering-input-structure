@@ -176,11 +176,7 @@ class GenerateKPath(KPath, luigi.Task):
                     f"--out-dir={out}",
                     f'--grammar-file={driver_info["tribble_grammar"]}',
                     f"--mode={self.k}-path-{depth()}",
-                    # TODO investigate if this is needed
-                    # f"--heuristic={self.k}-path-coverage",
-                    # TODO investigate if this is needed
-                    # f"--report-kcoverage={self.k}",
-                    # f"--report-file={Path(self.output().path).with_suffix('.coverage.csv')}",
+                    f"--heuristic={self.k}-path-coverage",
                     "--unfold-regexes",
                     "--merge-literals"
                     ]
