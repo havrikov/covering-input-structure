@@ -11,10 +11,11 @@ You need Python `>= 3.6` and Java `>= 1.8`.
 
 ## Building
 
-Clone this repo with _submodules_:
+Clone this repo _with submodules_:
 
 ```bash
 git clone --recurse-submodules https://github.com/havrikov/covering-input-structure.git
+cd covering-input-structure
 ```
 
 Install python dependencies:
