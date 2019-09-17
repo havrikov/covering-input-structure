@@ -33,7 +33,7 @@ Edit `luigi.cfg` to set the amount of RAM available and the experiment directory
 Start the luigi daemon (installed as part of the prerequisites).
 
 ```bash
-luigid --background
+luigid --background --pidfile tools/luigi/pid --logdir tools/luigi/logs --state-path tools/luigi/state
 ```
 
 Run the experiments. (Substitute the number of CPUs below)
