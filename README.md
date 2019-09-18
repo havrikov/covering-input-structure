@@ -15,6 +15,11 @@ Clone this repo _with submodules_:
 
 ```bash
 git clone --recurse-submodules https://github.com/havrikov/covering-input-structure.git
+```
+
+The rest of these instructions assume you are in the cloned directory:
+
+```bash
 cd covering-input-structure
 ```
 
