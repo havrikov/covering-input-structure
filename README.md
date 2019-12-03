@@ -11,7 +11,7 @@ You need Python `>= 3.6` and Java `>= 1.8`.
 
 ## Building
 
-Clone this repo _with submodules_:
+Clone this repo _with submodules_ (namely the input generator [tribble](https://github.com/havrikov/tribble) and the [subjects](https://github.com/havrikov/text-processing-java-projects)):
 
 ```bash
 git clone --recurse-submodules https://github.com/havrikov/covering-input-structure.git
