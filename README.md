@@ -1,6 +1,6 @@
 # K-Path Coverage Evaluation
 
-This is a replication package for the paper "Systematically Covering Input Structure" published at ASE 2019.
+This is a replication package for the paper "Systematically Covering Input Structure" published at ASE 2019 ([preprint](https://havrikov.github.io/publications/ase19-preprint.pdf)).
 
 You can download the entire dataset as reported in the paper from [Google Drive](https://drive.google.com/open?id=1S_F5EWB0B5v8cxkTsXArvG0ViPs7wryS) (574MB download, 16GB uncompressed).
 
