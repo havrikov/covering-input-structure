@@ -5,7 +5,7 @@ luigi==2.8.2
 plotly==3.4.2
 cufflinks==0.14.6
 nbformat==4.4.0
-nbconvert==5.4.0
+nbconvert==6.5.1
 jupyter==1.0.0
 matplotlib==3.0.1
 seaborn==0.9.0
