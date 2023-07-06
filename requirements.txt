@@ -1,5 +1,5 @@
 numpy==1.22.0
-scipy==1.2.0
+scipy==1.10.0
 pandas==0.23.4
 luigi==2.8.2
 plotly==3.4.2
